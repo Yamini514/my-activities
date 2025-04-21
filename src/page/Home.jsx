@@ -112,6 +112,7 @@ const Home = () => {
                 <p className="text-base md:text-xl mb-8 text-center max-w-3xl mx-auto opacity-0 animate-[fadeIn_1s_ease-in_0.5s_forwards] [text-shadow:_1px_1px_2px_rgb(0_0_0_/_30%)]">
                   Join our comprehensive training programs and kickstart your career in technology
                 </p>
+                <p>Hello</p>
               </div>
               <div className="flex gap-4 flex-wrap justify-center opacity-0 animate-[fadeInUp_1s_ease-in_1s_forwards]">
                 <button className="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
