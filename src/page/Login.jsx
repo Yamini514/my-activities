@@ -117,6 +117,9 @@ const Login = () => {
           </motion.div>
         </motion.div>
       </div>
+      <div className='bg-white shadow-md'>
+        <Navbar style={{ backgroundColor: 'rgba(255, 255, 255, 0.9)', boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)' }} />
+      </div>
     </div>
   )
 }

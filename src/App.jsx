@@ -3,7 +3,9 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './page/Home'
 import Navbar from './components/Navbar'
 import Login from './page/Login'
-import Register from './page/Register'
+import Register from './page/RegisterForm'
+import Programs from './page/Programs'
+import Features from './page/Features'
 
 const App = () => {
   return (
@@ -18,6 +20,8 @@ const App = () => {
           <Route path='/login' element={<Login />} />
           <Route path='*' element={<Home />} />
           <Route path='/register' element={<Register />} />
+          <Route path='/programs' element={<Programs />} />
+          <Route path='/features' element={<Features />} />
         </Routes>
       </BrowserRouter>
     </div>

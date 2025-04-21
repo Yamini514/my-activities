@@ -21,22 +21,14 @@ const Menu =
     {
         id: 3,
         title: 'Programs',
-        link: '#',
-        submenu: [
-            {
-                title: 'Technical',
-                link: '/technical'
-            },
-            {
-                title: 'Sales',
-                link: '/sales'
-            }
-        ]
+        link: '/programs',
+          
+        
     },
     {
         id: 4,
         title: 'Features',
-        link: '/features', 
+        link: '/features', // Ensure this path matches the route for your Features page
     }
 ]
 
